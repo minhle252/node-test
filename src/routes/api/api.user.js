@@ -38,7 +38,7 @@ router.get(
 	authenticateToken,
 	// authenticateRefreshToken,
 	// authenticateTokenAdmin,
-	UserController.deleteUserById
+	UserController.getUserById
 );
 router.post(
 	"/delete-user-by-id/:id",
